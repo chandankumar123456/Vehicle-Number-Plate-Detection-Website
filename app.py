@@ -16,7 +16,7 @@ app = Flask(__name__)
 # Load YOLOv7 model (use your path to best.pt)
 # model_path = r"best.pt"
 model_path = os.getenv('MODEL_PATH', './yolov7/best.pt')
-model = torch.hub.load('WongKinYiu/yolov7', 'custom', model_path, force_reload=True)
+model = torch.hub.load('WongKinYiu/yolov7', 'custom', model_path, force_reload=True, trust_repo=True)
 
 @app.route('/')
 def home():
