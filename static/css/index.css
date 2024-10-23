@@ -1,0 +1,46 @@
+/* Index Page Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding for body */
+}
+
+h1 {
+    font-size: 2.5em; /* Increase the font size */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+video {
+    width: 80%; /* Responsive width */
+    max-width: 640px; /* Max width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+canvas {
+    display: none; /* Hide the canvas */
+}
+
+h2 {
+    margin-top: 30px; /* Spacing above the predictions heading */
+    font-size: 2em; /* Increase heading size */
+    color: #007bff; /* Blue color for headings */
+}
+
+#result {
+    margin-top: 20px; /* Spacing above results */
+}
+
+#result img {
+    width: 80%; /* Responsive width for result image */
+    max-width: 640px; /* Max width */
+    height: auto; /* Auto height */
+    border: 2px solid #28a745; /* Green border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
